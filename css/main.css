@@ -720,6 +720,7 @@ footer {
   align-content: center;
   flex-flow: row nowrap;
 }
+
 .marcas .imgMarca{
   max-width: 80%;
   max-height: 80%;
@@ -728,3 +729,17 @@ footer {
   flex-wrap: nowrap;
 }
 
+
+.productos{
+  justify-content: center;
+  align-content: center;
+  flex-flow: row nowrap;
+}
+
+.productos .imgProducto{
+  max-width: 20%;
+  max-height: 20%;
+  padding: 2%;
+  object-fit: contain;
+  flex-wrap: nowrap;
+}

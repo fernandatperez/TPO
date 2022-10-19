@@ -54,17 +54,17 @@
     <h1 class="tituloPresupuesto">Consultas y Solicitud de Presupuesto</h1>
     <main class="mainPresupuesto">
         <!--Formulario de contacto-->
-        <form action="">
+        <form onSubmit="return validar()">
             <fieldset class="bordePresupuesto">
-                <input class="campo" type="text" name="Nombre" placeholder="Nombre">
-                <input class="campo" type="text" name="Celular" placeholder="Teléfono">    
-                <input class="campo" type="email" name="Email" placeholder="Correo electronico">
-                <select class="campo" name="Consulta">
+                <input class="campo" type="text" name="Nombre" placeholder="Nombre" id="nombre">
+                <input class="campo" type="text" name="Celular" placeholder="Teléfono" id="numero">    
+                <input class="campo" type="email" name="Email" placeholder="Correo electronico" id="email">
+                <select class="campo" name="Consulta" id="consulta"required id="opcion">
                     <option value="Consul">Seleccioná una opción</option>
                     <option value="Pago">Forma de Pago</option>
                     <option value="Presupuesto">Presupuesto</option>
                 </select>
-                <input class="campoGrande" type="text" name="Consulta" placeholder="Escriba su consulta aquí"> 
+                <input class="campoGrande" type="text" name="Consulta" id="consulta"> 
                 <input class="campo" type="submit" value="Enviar Mensaje">
             </fieldset>
         </form>
@@ -105,4 +105,6 @@
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
+<!-- Script JavaScript -->
+<script src="app.js"></script>
 </html>

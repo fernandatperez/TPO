@@ -1,6 +1,6 @@
 'use strict'
 
-function myFunction() {
+function alertaCompra() {
     alert("Producto agregado al carrito");
     
   }

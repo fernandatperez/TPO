@@ -1,8 +1,6 @@
-# Trabajo Practico Obligatorio Codo A Codo - Comision 22508
-## Docente: Ariel Palazzesi
-## Alumnas: Rosario Burone Risso, Sofia Ruiz Rocha, Fernanda Perez
+# Pagina web sencilla utilizando Javascript, HTML y CSS
 
-<p>Nuestra pagina se trata sobre el emprendimiento Sofia, una web para un comercio de insumos de electricidad, iluminaria, caños de PVC entre otros.</p>
+<p>Esta pagina se trata sobre una web para un comercio de insumos de electricidad, iluminaria, caños de PVC entre otros.</p>
 <p>La pagina se compone de la pagina principal index.html y las paginas comprar.html, productos.html, nosotros.html y solicitarPresupuesto.html.</p>
 <p>La pagina comprar se compone de un carrito simple hecho en Javascript, HTML, CSS y flex.</p>
 <p>La pagina nosotros brinda informacion sobre el emprendimiento, su mision y valores.</p>
